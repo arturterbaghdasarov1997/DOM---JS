@@ -123,10 +123,10 @@ const checkAnswer = () => {
     if (selectedAnswer === currentQuestion.correctAnswer) {
         score++;
         scoreElement.textContent = score;
-        selectedOption.parentNode.style.color = "green";
+        selectedOption.parentNode.style.backgroundColor = "lightgreen";
         selectedOption.parentNode.style.fontWeight = "bold";
     } else {
-        selectedOption.parentNode.style.color = "red";
+        selectedOption.parentNode.style.backgroundColor = "red";
         selectedOption.parentNode.style.fontWeight = "bold";
     }
 
